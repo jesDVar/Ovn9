@@ -4,17 +4,16 @@ ol, ul, li, a  {
     border: 0;
     margin: 0;
 }
-header  {
+/* header  {
     
-}
+} */
 body  {
     background-color: rgb(139, 137, 247);
 }
-
 footer 
 {
     height: auto;
-    background-color: rgb(61, 126, 126);
+    background-color: rgb(35, 83, 83);
     text-align: center;
 }
 .header  {
