@@ -7,10 +7,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
          rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
          <link rel="stylesheet" href="main.css">
+
+
+         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <title>ToDo</title>
 </head>
 
 <body>
+
+    
+    <div class="container">
+        <div class="row">
+            <input type="hidden" name="count" value="1" />
+            <div class="control-group" id="fields">
+                <label class="control-label" for="field1">Nice Multiple Form Fields</label>
+                <div class="controls" id="profs"> 
+                    <form class="input-append">
+                        <div id="field"><input autocomplete="off" class="input" id="field1" name="prof1" type="text" placeholder="Type something" data-items="8"/><button id="b1" class="btn add-more" type="button">+</button></div>
+                    </form>
+                <br>
+                <small>Press + to add another form field :)</small>
+                </div>
+            </div>
+        </div>
+    </div>    
+    
+    <!-- <div class="container">
+        <input min="0" id="bish" class="form-control" type="text" placeholder="bish number">
+        <input id="bosh" class="form-control" type="text" placeholder="bosh number">
+        <input id="nrOfTimes" class="form-control" type="text" placeholder="max value">
+        <button id="run" class="btn btn-info">Run</button>
+     </div> -->
 
 
       <footer class="mt-auto">
