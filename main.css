@@ -8,16 +8,17 @@ ol, ul, li, a  {
     
 } */
 body  {
-    background-color: rgb(139, 137, 247);
+    background-color: rgb(200, 199, 240);
 }
 footer 
 {
-    height: auto;
-    background-color: rgb(35, 83, 83);
+    padding: 10px 10px 10px 10px;
+    /* height: auto; */
+    background-color: rgb(88, 177, 177);
     text-align: center;
 }
 .header  {
-    background-color: lightslategray;
+    background-color: rgb(200, 226, 252);
     padding: 10px 10px 10px 10px;
 
 }
