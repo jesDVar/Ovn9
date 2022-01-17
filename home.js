@@ -1,3 +1,9 @@
+// const field = document.querySelector('#field');
+// field.addEventListener('click', (e) => {
+//     field.style.backgroundcolor = '#eeeeee';
+// })
+
+// DYNAMIC-FIELDS
 $(document).ready(function(){
     var next = 1;
     $(".add-more").click(function(e){
@@ -21,8 +27,7 @@ $(document).ready(function(){
                 $(this).remove();
                 $(fieldID).remove();
             });
-    });
-    
+    });    
 });
 
 
