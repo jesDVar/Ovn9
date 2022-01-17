@@ -11,16 +11,26 @@
         <title>Övning 9</title>
    </head>
    
-   <body>
-      <header>
-      <div>
+   <body class="d-flex flex-column min-vh-100">
+      <div class="header">
          <h1>Bish-Bosh 2.0
          </h1>
          <p>Bish-Bosh, Ange två olika tal som ska kontrolleras ifall de ger en rest lika med 0. Talen beräknas modulärt med % operatorn.</p>
       </div>
-   </header>
 
-      <footer>
+   <div class="container">
+      <input min="0" id="bish" class="form-control" type="text" placeholder="bish number">
+      <input id="bosh" class="form-control" type="text" placeholder="bosh number">
+      <input id="nrOfTimes" class="form-control" type="text" placeholder="max value">
+      <button id="run" class="btn btn-info">Run</button>
+   </div>
+
+   <div>
+      <p id="output"></p>
+   </div>
+  
+
+      <footer class="mt-auto">
          <p>Copyright JV Sweden, 2022.</p>
       </footer>
 
